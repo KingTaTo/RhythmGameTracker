@@ -1,16 +1,22 @@
-import games.iidx.IIDXMain;
+import database.DatabaseHandler;
+import chunithm.*;
+import java.sql.*;
 
-/**
- * Placeholder main method, mostly for testing.
- */
 public class Main {
-	public static void main(String[] args) {
-		new gui.MyFrame();
-		IIDXMain iidx = new IIDXMain(1479);
+	public static void main(String[] args) throws SQLException {
+		String url = "jdbc:sqlite:D:/Games/_Rhythm Games/Sega/Chunithm NEW PLUS/data/db.sqlite"; // Filepath goes here
+		DatabaseHandler databaseHandler;
 
-		System.out.printf("Max Score: %d\n", iidx.calculateMaxScore(1479));
+		try {
+			databaseHandler = new DatabaseHandler(url);
 
-		int score = 2958;
-		System.out.printf("EXSCORE: %d | Grade: %s", score, iidx.calculateGrade(score));
+			// Do stuff here
+			ChunithmUserDetail.getRecentPlays(databaseHandler);
+
+
+		} catch	(SQLException e) {
+			e.printStackTrace();
+		}
 	}
+
 }

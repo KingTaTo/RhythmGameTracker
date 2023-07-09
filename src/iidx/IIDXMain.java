@@ -1,6 +1,4 @@
-package games.iidx;
-
-import games.IScoreCalculator;
+package iidx;
 
 /**
  * Various IIDX tools and calculations

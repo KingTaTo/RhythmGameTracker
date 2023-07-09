@@ -1,4 +1,4 @@
-package games;
+package iidx;
 
 /**
  * Interface for calculating score and corresponding grade.

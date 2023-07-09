@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ddc2f7-dac2-4006-a2d1-10e2805a3ee2" name="Changes" comment="Initial commit + score/grade calculation for iidx.">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RhythmGameTracker.iml" afterDir="false" />
+    <list default="true" id="37ddc2f7-dac2-4006-a2d1-10e2805a3ee2" name="Changes" comment="Various project settings.">
+      <change afterPath="$PROJECT_DIR$/src/chunithm/ChunithmUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RhythmGameTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RhythmGameTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/IScoreCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iidx/IScoreCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/iidx/IIDXMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iidx/IIDXMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tangk/Documents/Projects/RhythmGameTracker/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="games" />
@@ -64,7 +79,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659229627228</updated>
-      <workItem from="1659229628501" duration="14409000" />
+      <workItem from="1659229628501" duration="14661000" />
+      <workItem from="1659304147721" duration="4088000" />
+      <workItem from="1660788210329" duration="4124000" />
+      <workItem from="1660793000616" duration="887000" />
+      <workItem from="1660795429430" duration="18000" />
+      <workItem from="1660832426990" duration="4030000" />
+      <workItem from="1660836818475" duration="1223000" />
+      <workItem from="1661342868446" duration="34000" />
+      <workItem from="1661342957319" duration="84000" />
+      <workItem from="1661343084829" duration="528000" />
+      <workItem from="1664239449454" duration="824000" />
+      <workItem from="1688091771704" duration="36000" />
+      <workItem from="1688091811604" duration="1204000" />
+      <workItem from="1688158963362" duration="704000" />
+      <workItem from="1688160892084" duration="907000" />
+      <workItem from="1688906440014" duration="1611000" />
+      <workItem from="1688938497910" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit + score/grade calculation for iidx.">
       <created>1659243935905</created>
@@ -73,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659243935905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Various project settings.">
+      <created>1659244740349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659244740349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +131,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit + score/grade calculation for iidx." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit + score/grade calculation for iidx." />
+    <MESSAGE value="Various project settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Various project settings." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
