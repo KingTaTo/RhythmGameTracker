@@ -1,5 +1,5 @@
 # RhythmGameTracker
-A score tracker/viewer for (hopefully) various rhythm games.
+A statistic tracker for (hopefully) various rhythm games.
 If you're on an online tracker, then what are you doing here lol, go use that instead.
 
 ## IIDX
